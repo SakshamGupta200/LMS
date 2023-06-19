@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    height: 100%;
+    width: 100%;
+/*    background-color: yellow;*/
+    
+}
+.add h1{
+    margin-left: 20vw; 
+}
+.add{
+    height: 60vw;
+    width: 100vw;
+    background: url("../img/lb10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -15pt;
+}
+.add form{
+    height: 500pt;
+    width: 600pt;
+    background-color: transparent;
+    margin-left: 20vw; 
+     border: 2pt ridge aliceblue;
+    box-shadow: 6pt 10pt 30pt darkorange;
+}
+.add h1 {
+    margin-left: 43vw;
+    color: aliceblue;
+    font-size: 1.2cm;
+    font-family: sans-serif;
+}
+.form-control{
+    width: 20vw;
+}
+.form-group{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1cm;
+}
+.button{
+    margin-left: 27vw;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-success{
+    background-color: transparent;
+    color: aqua;
+        height: 9vh;
+    width: 8vw;
+    padding-top: 2vh;
+}
+
+.form-group label{
+    color: aqua;    
+    font-size: 2vw;
+    font-family: sans-serif;
+}

@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 Jan, 2023, 6:08:44 PM
+    Author     : Saksham
+*/
+h1{
+    font-size: 1cm;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+body{
+    background: url("../img/lb11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table-hover{
+    font-size: 2vw;
+    color: lime;
+    font-weight: 900;
+    font-family: cursive;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="Design/Adduser.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form action="Add-user.jsp" method="post">
+            <div class="outer">
+                <h1>Add User</h1>
+                        <table class="table table-hover">
+                                 <tr>
+                                    <td><label>User Id</label></td>
+                                    <td><input type="text" name="uid"></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><label>User Name</label></td>
+                                    <td><input type="text" name="name"></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td><label>Gender</label></td>
+                                    <td class="rad">
+                                        <input type="radio" name="gen" value="M">Male
+                                        <input type="radio" name="gen" value="F">Female
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                   <td><label>Mobile</label></td>
+                                   <td><input type="text" name="mob"></td>
+                                </tr>
+                                <tr>
+                                   <td><label>Email</label></td>
+                                   <td><input type="text" name="email"></td>                                    
+                                </tr>
+                                <tr>
+                                   <td>
+                                       <label>Course</label>
+                                   </td>
+                                   <td>
+                                       <select name="course">
+                                           <option>Select Course</option>
+                                           <option value="B.A">B.A</option>
+                                           <option value="BCA">BCA</option>
+                                           <option value="B.Sc.">B.Sc.</option>
+                                           <option value="MCA">MCA</option>
+                                           <option value="B.Tech">B.Tech</option>
+                                           <option value="M.Tech">M.Tech</option>
+                                           <option value="B.E.">B.E.</option>
+                                       </select>
+                                   </td>                                   
+                                </tr>
+                                <tr>
+                                   <td>
+                                       <input type="submit" class="btn btn-success" value="Add User">
+                                   </td>  
+                                   <td></td>
+                                </tr>
+                        </table>        
+            </div>
+        </form>
+    </body>
+</html>

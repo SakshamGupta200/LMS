@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="Design/Addbook.css" rel="stylesheet" type="text/css"/>
+    </head>    
+    <body>
+        <div class="outer">
+            <div class="add">
+                <h1>Add Book</h1>
+                <form action="Add-book.jsp" method="post">
+                    <div class="form-group">
+                        <label for="ISBN">Enter ISBN</label>
+                        <input type="text" name="isbn" class="form-control" id="ISBN" placeholder="Enter ISBN">
+                    </div>
+                    <div class="form-group">
+                        <label for="Title">Enter Title</label>
+                        <input type="text" name="title" class="form-control" id="Title" placeholder="Enter Title">
+                    </div>
+                    <div class="form-group">
+                        <label for="Author">Enter Author</label>
+                        <input type="text" name="author" class="form-control" id="Author" placeholder="Enter Author">
+                    </div>
+                    <div class="form-group">
+                        <label for="Edition">Enter Edition</label>
+                        <input type="text" name="edition" class="form-control" id="Edition" placeholder="Enter Edition" >
+                    </div>
+                    <div class="form-group">
+                        <label for="Publication">Enter Publication</label>
+                        <input type="text" name="publication" class="form-control" id="Publication" placeholder="Enter Publication">
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Quantities</label>
+                        <input type="number" name="quantity" class="form-control" id="quantity" placeholder="Quantities">
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Add Book" class="btn btn-success">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

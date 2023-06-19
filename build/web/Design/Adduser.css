@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    height: 100vh;
+    width: 100vw;
+/*    background-color: yellow;*/
+background: url("../img/lb11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin-top: -15pt;
+}
+.outer h1 {
+    margin-left: 43vw;
+    color: aliceblue;
+    font-size: 1.2cm;
+    font-family: sans-serif;
+}
+.table label{
+/*    color: aliceblue;*/
+    font-size: 2vw;
+    margin: 0pt 85pt;
+}
+.table{
+    height: 400pt;
+    width: 500pt;
+    margin: 2vw 25vw;
+    border: 5pt ridge sandybrown;
+}
+.rad{
+/*        color: aliceblue;*/
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -6vw;
+}
+.btn-success{
+    background-color: transparent;
+    color: black;
+    font-size: xx-large;
+        height: 9vh;
+    width: 12vw;
+    
+    margin-left: 20vw;
+}
+.table select{
+    height: 10vh;
+    width: 13vw;
+    padding-left: 3vw;
+}
+.table-hover{
+    color: orangered;
+}
